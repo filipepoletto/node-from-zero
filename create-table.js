@@ -12,5 +12,5 @@ sql`
         duration    INTEGER
     );
 `.then(() => {
-    console.log('Tabela criada!')
+    console.log('Table created!')
 })
