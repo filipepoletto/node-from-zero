@@ -25,3 +25,33 @@ Content-type: application/json
 ###
 
 DELETE http://localhost:3333/videos/b5963e98-65fb-423b-bc5b-0a45b990ce5a
+
+###
+
+POST https://node-from-zero.onrender.com/videos
+Content-type: application/json
+
+{
+    "title": "Node video",
+    "description": "This is the video 01",
+    "duration": 180
+}
+
+###
+
+GET https://node-from-zero.onrender.com/videos
+
+###
+
+PUT https://node-from-zero.onrender.com/videos/4d2ac646-4fe3-4ef1-becb-703a126ff3a4
+Content-type: application/json
+
+{
+    "title": "Video 02",
+    "description": "This is the video 01",
+    "duration": 180
+}
+
+###
+
+DELETE https://node-from-zero.onrender.com/videos/4d2ac646-4fe3-4ef1-becb-703a126ff3a4
